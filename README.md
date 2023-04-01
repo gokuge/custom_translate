@@ -15,7 +15,7 @@
 googletransには[制限](https://github.com/ssut/py-googletrans#note-on-library-usage)があります  
 使用する際、ご自分の使用頻度や文量が制限に引っかかるかどうかご確認下さい  
 
-## 確認した動作環境
+## 実行環境
 - macOS Monterey 12.6.3
 - python 3.9.6
 - googletrans 3.1.0a0
@@ -49,7 +49,7 @@ I always keep in mind that
 ```
   
 やりたい事が見えたと思います  
-imusをなんとかしたいですね  
+Imusをなんとかしたいですね  
 ですので、それを置換し出力します  
   
 ```
