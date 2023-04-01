@@ -36,7 +36,7 @@ def custom_translate(target_file_path):
 def custom_replase(comment):
 	# 対象と置換後を辞書で登録。対象の大文字小文字は気にしなくて良い
 	replace_str_dic = {
-		'imus': 'idol m@ster'
+		'imus': 'THE IDOLM@STERr'
 	}
 
 	for key in replace_str_dic:
