@@ -1,15 +1,15 @@
 # custom_translate
-日本語のテキストファイルを英語へ翻訳し、txtファイルを出力します  
-  
+
+1. custom_translate.pyへ、日本語が書かれた内容のtxtファイルを投入する
+2. 1の内容を行単位で分割し、[googletrans](https://github.com/ssut/py-googletrans/blob/master/README.rst)を使って翻訳した結果を取得する
+3. 2に対して、自分にとって必要な置換を行う
+4. 1で投入されたtxtファイルと同階層へ、3をtxtファイルとして書き出す
+
 ## 目的
 描いたイラストを公開する際、説明文等は日本語と英語を併記していますが私は英語がさっぱりです  
 なので、今までは[Google Translate](https://translate.google.com)を頼っていましたが  
 一部の単語を変換したい場合があったのでcustom_translateを作成しました  
-大まかには下記の様な流れです
-  
-1. [googletrans](https://github.com/ssut/py-googletrans/blob/master/README.rst)を使い、翻訳したデータを取得する
-2. 1に対して、自分にとって必要な置換を行う
-3. 2を書き出す
+
 
 ## 注意
 googletransには[制限](https://github.com/ssut/py-googletrans#note-on-library-usage)があります  
